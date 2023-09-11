@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper {
+  width: 1400px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .main h1 {
+  font-family: Rubik;
+  font-size: 36px;
+}
+.wrapper .main {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  gap: 20px;
+}
+.wrapper .main input {
+  width: 460px;
+  height: 46px;
+}
+.wrapper .main input::placeholder {
+  padding: 12px;
+}
+
+.wrapper .main .submit {
+  margin-top: 10px;
+  background-color: #ffff;
+  color: #6e38f7;
+  border-color: #6e38f7;
+}
+.wrapper .main .button {
+  background-color: #6e38f7;
+  color: #ffff;
+}
+.wrapper .main p {
+  margin-top: 15px;
+  font-family: Rubik;
+  font-size: 16px;
+}
+.wrapper .main .account {
+  text-align: center;
+  margin-top: 15px;
+  font-family: Rubik;
+  font-size: 16px;
+}
+.wrapper hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
